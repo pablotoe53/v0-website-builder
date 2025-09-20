@@ -19,8 +19,8 @@ export default function Home() {
         <div className="space-y-6">
           {/* Main heading */}
           <div className="space-y-2">
-            <h1 className="text-2xl font-bold text-white leading-tight">Welcome to Roblox Server Access</h1>
-            <p className="text-gray-300 text-sm">To join the server, just click the Join Server button below.</p>
+            <h1 className="text-2xl font-bold text-white leading-tight">Welcome to Vercel Hub</h1>
+            <p className="text-gray-300 text-sm">To get a key, just click the Copy Key button below.</p>
           </div>
 
           {/* CTA Button */}
@@ -28,17 +28,17 @@ export default function Home() {
             onClick={handleGetKey}
             className="w-full bg-white hover:bg-gray-100 text-black font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
           >
-            JOIN SERVER NOW
+            COPY KEY
           </Button>
 
           {/* Description */}
           <div className="space-y-3 pt-2">
             <p className="text-gray-400 text-sm">
-              Join an exclusive Roblox server with amazing gameplay, custom features, and an active community.
+              The script offers instant steal, auto steal, brain rot finder and much more.
             </p>
 
             {/* Stats */}
-            <p className="text-green-400 font-medium text-sm">🎮 Join thousands of active players!</p>
+            <p className="text-green-400 font-medium text-sm">We have 50K+ active players!</p>
           </div>
         </div>
       </div>
