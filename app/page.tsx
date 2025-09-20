@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   const handleGetKey = () => {
-    window.open("https://www.roblox.com/share?code=3fc211f0e9afdc4abc717bb77946d665&type=Server", "_blank")
+    window.open("https://www.roblox.com/share?code=ee1d0c560c7918468d793e666e0852a9&type=Server", "_blank")
   }
 
   return (
